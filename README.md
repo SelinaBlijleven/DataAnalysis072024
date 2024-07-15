@@ -8,17 +8,11 @@ This section contains the most important libraries we'll cover in this training.
 
 ### Data Science
 
-- [NumPy: Numerical Python]()
-- [Pandas]()
-- [Scikit-learn]()
-- [Matplotlib & Seaborn]()
-
-### Other important libraries
-
-- [requests](https://libraries.io/pypi/requests): for HTTP requests to any webpage
-- [csv](): for reading CSV files (we can also do this with Pandas)
-- [json](): for working with json data
-- [typing](https://pypi.org/project/typing/): for type hinting in Python (including things like Optional types)
+- [NumPy: Numerical Python](https://numpy.org/)
+- [Pandas](https://pandas.pydata.org/)
+- [Scikit-learn](https://scikit-learn.org/stable/index.html)
+- [Matplotlib: borrowed from MATlab!](https://matplotlib.org/)
+- [Seaborn: extends matplotlib](https://seaborn.pydata.org/)
 
 ## Books
 
