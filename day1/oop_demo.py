@@ -49,11 +49,24 @@ class Auto:
         """
         return f"Auto is een {self.brand} uit {self.build_year}"
 
+    def __eq__(self, other) -> bool:
+        """
+        Compare an Auto to any other object.
+
+        :param other:
+        :return:
+        """
+        if type(self) != type(other):
+            return False
+
+        return (self.brand, self.build_year) == (other.brand, other.build_year)
+
 
 # Construct a person and two cars, this doesn't print anything
 p1 = Person("John", 36)
 auto1 = Auto("Mercedes", 2005)
 auto2 = Auto("Opel", 2010)
+auto3 = Auto("Opel", 2010)
 
 # Now we can print our objects to learn more about them, using their __str__ functions.
 print(str(p1))
@@ -62,3 +75,5 @@ print(auto2)            # so we don't have to use it
 
 # Call an object method
 auto2.start()
+
+print(auto3 == auto2)
