@@ -6,13 +6,14 @@ This file contains two input validation examples:
 1. Example 1 will show you how to get confirmation from a user before proceeding.
 2. Example 2 will allow the user to specify whether they want to receive a newsletter or not.
 """
+from typing import Optional
 
 # Keep a list of affirmative and negative words our users can use to answer.
 AFFIRMATIVE = ["y", "yes"]
 NEGATIVE = ["n", "no"]
 
 
-def main():
+def main() -> None:
     # Make the user agree to the terms and conditions
     input_validation()
 
@@ -56,12 +57,10 @@ def input_validation() -> None:
     # so we do not use a return statement.
 
 
-def subscribe_newspaper():
-    """
-    Ask the user if they wish to subscribe to the newspaper.
-    """
+def subscribe_newspaper() -> Optional[bool]:
+    """ Ask the user if they wish to subscribe to the newspaper. """
     # Store the answer later
-    ans: bool | None = None
+    ans: Optional[bool] = None
 
     # Ask again until we have a clear yes or no
     while ans is None:
