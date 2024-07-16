@@ -3,8 +3,8 @@ functions_demo.py
 """
 
 
-def optellen(a: int, b: int) -> int:
-    return a + b
+def optellen(getal1: int, getal2: int) -> int:
+    return getal1 + getal2
 
 
 def statistiek(lijst: list) -> tuple[int, int]:

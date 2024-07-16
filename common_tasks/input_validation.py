@@ -65,7 +65,7 @@ def subscribe_newspaper():
 
     # Ask again until we have a clear yes or no
     while ans is None:
-        sub: str = input("Do you want to subscribe to our newspaper? Y/N \n")
+        sub: str = input("Do you want to subscribe to our newsletter? Y/N \n")
 
         # Check if we have an answer we can accept: we
         # combine both the yes and no answers.
