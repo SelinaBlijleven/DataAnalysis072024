@@ -100,7 +100,3 @@ sns.load_dataset('penguins')
 [Kaggle.com](https://www.kaggle.com) offers a wide variety of datasets, also indicating a usability score per dataset. 
 Another great source is [HuggingFace](https://huggingface.co/datasets). You can download any dataset and import it 
 using a suitable I/O library.
-
-## Contact
-
-Any questions? You can e-mail me at selina.blijleven@code-cafe.nl.
