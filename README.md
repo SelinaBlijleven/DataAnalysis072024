@@ -1,6 +1,12 @@
 # DataAnalysis072024
 
-Python examples for Data Analysis, now with a commit from Willem's laptop.
+Python examples for Data Analysis course July 2024.
+
+## Python
+
+Resources for learning Python:
+
+- [Practice Python on Khan Academy](https://www.khanacademy.org/computing/intro-to-python-fundamentals)
 
 ## Libraries
 
@@ -27,6 +33,7 @@ the DataFrame.
 - [Official docs](https://pandas.pydata.org/)
 - [Pandas Cookbook](https://github.com/jvns/pandas-cookbook)
 - [Practice Pandas on Kaggle](https://www.kaggle.com/learn/pandas)
+- [Pandas Tutorial on Programiz](https://www.programiz.com/python-programming/pandas/)
 - [Comparison with SAS](https://pandas.pydata.org/docs/getting_started/comparison/comparison_with_sas.html)
 
 ### Data Visualisation
@@ -36,6 +43,8 @@ Seaborn extends. Generally, Seaborn figures are more aesthetically appealing and
 
 - [Matplotlib documentation](https://matplotlib.org/)
 - [Seaborn documentation](https://seaborn.pydata.org/)
+
+See also: the extra/seaborn folder for different plot examples.
 
 ### Scikit-learn
 
@@ -61,6 +70,8 @@ GitHub repo with [code examples](https://github.com/ageron/handson-ml3?tab=readm
 ### Free Programming Books Repository
 
 [Free Programming book repository on GitHub](https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-subjects.md)
+
+This repository contains a list of books in several languages. There is also a list 
 
 ## Datasets
 
