@@ -7,6 +7,7 @@ Python examples for Data Analysis course July 2024.
 Resources for learning Python:
 
 - [Practice Python on Khan Academy](https://www.khanacademy.org/computing/intro-to-python-fundamentals)
+- [Useful libraries for Data Science in 2023](https://www.kdnuggets.com/2023/01/top-data-python-packages-know-2023.html)
 
 ## Libraries
 
@@ -43,12 +44,16 @@ Seaborn extends. Generally, Seaborn figures are more aesthetically appealing and
 
 - [Matplotlib documentation](https://matplotlib.org/)
 - [Seaborn documentation](https://seaborn.pydata.org/)
+- [Visualization with Seaborn (Data Science Handbook)](https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html)
+- [Geographic data with Basemap (Data Science Handbook)](https://jakevdp.github.io/PythonDataScienceHandbook/04.13-geographic-data-with-basemap.html)
+- [5 Visualization Libraries in Python - KDNuggets](https://www.kdnuggets.com/2023/08/5-python-packages-geospatial-data-analysis.html)
 
 See also: the extra/seaborn folder for different plot examples.
 
 ### Scikit-learn
 
-Scikit-learn is a machine learning toolkit.
+Scikit-learn is a machine learning toolkit. In this training we will do a brief introduction, 
+to lay a foundation for the Machine Learning course.
 
 - [Official docs](https://scikit-learn.org/stable/index.html)
 
